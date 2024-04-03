@@ -1,2 +1,1 @@
-# ResumeReact
-Wanted an interesting way to show generate my resume
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
