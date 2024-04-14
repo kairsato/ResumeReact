@@ -29,5 +29,5 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ]
+, "common/localStorage.js", "common/localStorage.js"  ]
 }
