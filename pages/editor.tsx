@@ -1,25 +1,21 @@
 import { Avatar, Button, Container, Grid, IconButton, List, ListItem, ListItemAvatar, ListItemText, Stack, TextField, Typography } from "@mui/material";
 import EditIcon from '@mui/icons-material/Edit';
 import AddIcon from '@mui/icons-material/Add';
-import { Attrributes } from "../models/attributes";
-import { useEffect, useState } from "react";
-import { getData, storeData } from "../common/localStorage";
+import { useState } from "react";
+import Kai from '../template/Kai.json';
 const ContentSpacer = () => <Container sx={{height:12}}></Container>
 
 export default function Editor()  { 
-  const initialState  =   getData('data') as Resume
-  const [state, setState] = useState(initialState);
-  const [data, setData] = useState({});
+  const [state, setState] = useState(Kai);
   
-   var test : Array<Attrributes> = [
-    {icon:'tst',text:'tst'},
-   ];
 
-   useEffect(() => {
-    storeData('data', state);
-    //setData(newData);
-  }, [state]);
-
+  const appendAttribute = (attribute : Attributes) => {
+    setState({...state,header:{...state.header,
+      attributes: [...state.header.attributes, attribute],
+    }})
+  }
+ 
+   
   
   return <Stack>
             <Typography align="center" variant="h3" component="h2">
@@ -38,13 +34,13 @@ export default function Editor()  {
                 </Typography>
               </Grid>
               <Grid item xs={8}>
-                <Button variant="outlined" startIcon={<AddIcon />} onClick={() =>{ test.push({icon:'',text:''})}}>
+                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => appendAttribute({icon:'',text:''})}>
                   Add
                 </Button>
               </Grid>
             <Grid item xs={8}>
               <List dense={true}>
-             {test.map((item) => { return  <ListItem
+             {state.header.attributes.map((item) => { return  <ListItem
                   secondaryAction={
                     <IconButton edge="end" aria-label="delete">
                       <EditIcon  style={{ color:'#1d62fb'}} />
@@ -56,7 +52,7 @@ export default function Editor()  {
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText
-                    primary="Single-line item"
+                    primary={item.text}
                     secondary={ 'Secondary text'}
                   />
                 </ListItem>
