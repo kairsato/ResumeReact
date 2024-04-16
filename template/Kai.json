@@ -1,0 +1,84 @@
+{
+    "header": {
+        "name":"Kai Sato",
+        "info":"I am a deeply passionate, computer science graduate with strong interpersonal skills seeking a full time career in software engineer/development.",
+        "attributes":[{
+            "icon":"base64:awdkawdjkawd",
+            "text":"KaiRSato"
+        },
+        {
+            "icon":"base64:awdkawdjkawd",
+            "text":"kai-sato"
+        },
+        {
+            "icon":"base64:awdkawdjkawd",
+            "text":"+61 490668649"
+        },
+        {
+            "icon":"base64:awdkawdjkawd",
+            "text":"kairobbiesato@gmail.com"
+        },
+        {
+            "icon":"base64:awdkawdjkawd",
+            "text":"Australia Citzen"
+        },
+        {
+            "icon":"base64:awdkawdjkawd",
+            "text":"Fully Vacinated"
+        }
+    ]
+    },
+    "body":{
+        "left":[
+            {
+                "name":"Education",
+                "points": [
+                    {
+                    "date":"2019-2021",
+                    "title":"Griffith University",
+                    "subtitle":"",
+                    "content":"Bachelor of Computer Science (Major: Artificial Intelligence)"
+                    },
+                    {"date":"2018",
+                    "title":"Tafe NSW",
+                    "subtitle":"",
+                    "content":"Cert III Information Digital Media and Technology (ICT30118)"
+                    },
+                    {"date":"2012-2017",
+                    "title":"Xavier Catholic College",
+                    "subtitle":"",
+                    "content":"Software Design Development & Information Process Technology HSC Courses"
+                    },
+                    {
+                    "title":"Coding Skills",
+                    "subtitle":"",
+                    "content":"Proficient: dart, javascript, Fundamentals: c#"
+                    }
+                ]
+            }            
+        ],
+        "right":[
+            {
+                "name":"Experience",
+                "points": [
+                    {
+                    "date":"2021-Present",
+                    "title":"Software Engineer",
+                    "subTitle":"RPMGlobal",
+                    "info":"Bachelor of Computer Science (Major: Artificial Intelligence)"
+                    },
+                    {"date":"2018",
+                    "title":"Tafe NSW",
+                    "subTitle":"",
+                    "info":"Cert III Information Digital Media and Technology (ICT30118)"
+                    },
+                    {"date":"2012-2017",
+                    "title":"Xavier Catholic College",
+                    "subTitle":"",
+                    "info":"Software Design Development & Information Process Technology HSC Courses"
+                    }
+                ]
+            }
+        ]
+    }
+}
