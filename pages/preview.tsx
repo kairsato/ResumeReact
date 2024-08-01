@@ -1,5 +1,5 @@
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
-export default function Editor()  { 
-    return <Container></Container>
+export default function Preview()  { 
+    return <Container> <Typography variant="h3" component="h2" >Preview</Typography></Container>
 }
