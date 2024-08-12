@@ -2,7 +2,7 @@ import { Avatar, Button, Container, Grid, IconButton, List, ListItem, ListItemAv
 import EditIcon from '@mui/icons-material/Edit';
 import AddIcon from '@mui/icons-material/Add';
 import { useState } from "react";
-import Kai from '../template/Kai.json';
+import Kai from '../../template/Kai.json';
 const ContentSpacer = () => <Container sx={{height:12}}></Container>
 
 export default function Editor()  { 
