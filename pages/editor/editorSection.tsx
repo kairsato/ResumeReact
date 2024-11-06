@@ -82,10 +82,12 @@ export default function Editor() {
                   secondaryAction={
                     <IconButton edge="end" aria-label="delete">
                       <EditIcon style={{ color: '#1d62fb' }} />
+                      <EditIcon style={{ color: '#1d62fb' }} />
                     </IconButton>
                   }
                 >
                   <ListItemAvatar>
+                    <Avatar></Avatar>
                     <Avatar></Avatar>
                   </ListItemAvatar>
                   <ListItemText
