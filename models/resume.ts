@@ -2,31 +2,27 @@ interface Resume {
     header: {
         name:string,
         info:string,
-        attributes: Array<Attributes>
+        attributes: Array<Attribute>
     },
-    body:{
-        leftSide:Array<Section>,
-        rightSide:Array<Section>,
-        bottom:Array<Section>,
-    }
+    body:Array<Section>
 }
 
-interface Attributes{
-    icon:string,
-    text:string
-
+interface Attribute{
+    icon? :string,
+    title? :string,
+    value :string
 }
 
 interface Section {
     title:string,
-    icon:string,
-    points:Array<BulletPoints>
+    icon?:string,
+    points:Array<Point>
 
 }
 
-interface BulletPoints{
+interface Point{
     title:string,
-    subtitle:string,
-    content:string
-    dates:string
+    subtitle?:string,
+    content?:string,
+    dates?:string
 }

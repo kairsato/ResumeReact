@@ -1,0 +1,50 @@
+{
+  "header": {
+    "name": "John Smith",
+    "info": "Software Engineer",
+    "attributes": [
+      {
+        "icon": "icon-url",
+        "title": "Email",
+        "value": "john.smith@example.com"
+      },
+      {
+        "icon": "icon-url",
+        "title": "Phone",
+        "value": "123-456-7890"
+      }
+    ]
+  },
+  "body": [
+    {
+      "title": "Experience",
+      "icon": "icon-url",
+      "points": [
+        {
+          "title": "Software Engineer",
+          "subtitle": "Company A",
+          "content": "Developed various applications.",
+          "dates": "Jan 2020 - Present"
+        },
+        {
+          "title": "Junior Developer",
+          "subtitle": "Company B",
+          "content": "Assisted in developing web applications.",
+          "dates": "Jan 2018 - Dec 2019"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "icon": "icon-url",
+      "points": [
+        {
+          "title": "Bachelor of Science in Computer Science",
+          "subtitle": "University X",
+          "content": "Graduated with honors.",
+          "dates": "2014 - 2018"
+        }
+      ]
+    }
+  ]
+}
