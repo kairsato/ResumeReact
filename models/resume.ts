@@ -8,6 +8,7 @@ interface Resume {
 }
 
 interface Attribute{
+    order: number,
     icon? :string,
     title? :string,
     value :string
@@ -21,6 +22,7 @@ interface Section {
 }
 
 interface Point{
+    order: number,
     title:string,
     subtitle?:string,
     content?:string,

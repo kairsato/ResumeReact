@@ -4,11 +4,13 @@
     "info": "Software Engineer",
     "attributes": [
       {
+        "order": 1,
         "icon": "icon-url",
         "title": "Email",
         "value": "john.smith@example.com"
       },
       {
+        "order": 2,
         "icon": "icon-url",
         "title": "Phone",
         "value": "123-456-7890"
@@ -21,12 +23,14 @@
       "icon": "icon-url",
       "points": [
         {
+          "order": 1,
           "title": "Software Engineer",
           "subtitle": "Company A",
           "content": "Developed various applications.",
           "dates": "Jan 2020 - Present"
         },
         {
+          "order": 2,
           "title": "Junior Developer",
           "subtitle": "Company B",
           "content": "Assisted in developing web applications.",
